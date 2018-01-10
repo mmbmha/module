@@ -3,12 +3,8 @@
     'version': '0.1',
     'category': 'Test',
     'summary': 'Test app',
-    'depends': ['web'],
-    'data': [
-        'data/actions.xml',
-        'data/plant_views.xml',
-        'data/order_views.xml',
-    ],
+    # 'depends': ['sale_management'],
+
     'demo': [
     ],
     'css': [],
