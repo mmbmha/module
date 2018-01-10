@@ -1,34 +1,18 @@
-# -*- coding: utf-8 -*-
 {
-    'name': "PO# Field",
-
-    'summary': """
-        The first App on odoo11 by Dall""",
-
-    'description': """
-        Long description of module's purpose
-    """,
-
-    'author': "Dall.co",
-    'website': "http://www.dall.co",
-
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
-    # for the full list
-    'category': 'Uncategorized',
-    'version': '0.01',
-
-    # any module necessary for this one to work correctly
-    'depends': ['base','sale_management']
-
-    # always loaded
-    # 'data': [
-    #     # 'security/ir.model.access.csv',
-    #     'views/views.xml',
-    #     'views/templates.xml',
-    # ],
-    # # only loaded in demonstration mode
-    # 'demo': [
-    #     'demo/demo.xml',
-    # ]
+    'name': 'PO# Field',
+    'version': '0.1',
+    'category': 'Test',
+    'summary': 'Test app',
+    'depends': ['web'],
+    'data': [
+        'data/actions.xml',
+        'data/plant_views.xml',
+        'data/order_views.xml',
+    ],
+    'demo': [
+    ],
+    'css': [],
+    'installable': True,
+    'auto_install': False,
+    'application': True,
 }
